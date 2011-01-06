@@ -1,0 +1,74 @@
+#main_container
+{
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: .8em;
+}
+
+#clear { clear: both; }
+
+h2 {font-weight: bold; margin-left: 15px;}
+
+
+
+/* ============================= */
+#sort_grid_holder ul
+{
+    float: left;
+}
+
+#sort_grid_holder li
+{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+/* ============================= */
+ul.sort_column li
+{
+    display: inline;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+/* ============================= */
+
+ul.sort_row li
+{
+    margin: 10px;
+    padding: 5px;
+}
+/* ============================= */
+
+.drag_handle
+{
+    background-color: #92C35A;
+    padding: 2px 1px 2px 1px;
+    margin-bottom: 3px;
+    cursor: move;
+    color: white;
+}
+
+.drag_box
+{
+    border: 1px solid gray;
+}
+
+.placeholder
+{
+	background: #f0f0f0;
+	border:1px dashed #ddd;
+}
+
+.sort_grid
+{
+    padding: 5px;
+    margin: 5px;
+    width: 215px;
+}
